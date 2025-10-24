@@ -7,6 +7,87 @@
     padding: 0;
 }
 
+/*==========Dashqin 1ci hisse============*/
+.header {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header-flex {
+    display: flex;
+}
+
+.header-container {
+    padding-left: 9vw;
+    padding-top: 2vw;
+}
+
+.header-logo {
+    width: 8vw;
+    height: 5vw;
+}
+
+.header-nav {
+    display: flex;
+    align-items: baseline;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+    font-size: 1.5vw;
+}
+
+.header-nav p {
+    margin-left: 0.5vw;
+    margin-right: 1.5vw;
+}
+
+.header-nav img {
+    width: 2vw;
+    height: 2vw;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-size: 6vw;
+    width: 47vw;
+}
+
+.header-men {
+    width: 22vw;
+    height: 27vw;
+    height: auto;
+    margin-left: 8vw;
+}
+
+.header-blue {
+    font-family: "Roboto Slab", serif;
+    background-color: #1E4681;
+    box-sizing: border-box;
+    color: white;
+    width: 31vw;
+    height: 14vw;
+    padding: 1.5vw 2vw 0.5vw;
+    margin-left: 17vw;
+    margin-top: 5vw;
+    font-size: 1.9vw;
+    border-radius: 0.5vw;
+}
+.header-p2 {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+}
+
+.header-flex1 {
+    font-size: 1.5vw;
+    margin-top: 1.5vw;
+    width: 30vw;
+}
+
+
+
 /* Nilufer Desktop */
 .main-everything {
     padding-top: 12vw;
@@ -91,85 +172,6 @@
 .main-all h2 {
     margin-top: 15vw;
 }
-/*==========Dashqin 1ci hisse============*/
-.header {
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-.header-flex {
-    display: flex;
-}
-
-.header-container {
-    padding-left: 9vw;
-    padding-top: 2vw;
-}
-
-.header-logo {
-    width: 8vw;
-    height: 5vw;
-}
-
-.header-nav {
-    display: flex;
-    align-items: baseline;
-    margin-top: 7vw;
-    margin-bottom: 3vw;
-    font-size: 1.5vw;
-}
-
-.header-nav p {
-    margin-left: 0.5vw;
-    margin-right: 1.5vw;
-}
-
-.header-nav img {
-    width: 2vw;
-    height: 2vw;
-}
-
-h1 {
-    font-weight: bold;
-    font-family: "Roboto Slab", serif;
-    font-size: 6vw;
-    width: 47vw;
-}
-
-.header-men {
-    width: 22vw;
-    height: 27vw;
-    height: auto;
-    margin-left: 8vw;
-}
-
-.header-blue {
-    font-family: "Roboto Slab", serif;
-    background-color: #1E4681;
-    box-sizing: border-box;
-    color: white;
-    width: 31vw;
-    height: 14vw;
-    padding: 1.5vw 2vw 0.5vw;
-    margin-left: 17vw;
-    margin-top: 5vw;
-    font-size: 1.9vw;
-    border-radius: 0.5vw;
-}
-
-.header-p2 {
-    font-family: "Roboto", sans-serif;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 1.5vw;
-    margin-top: 0.5vw;
-}
-
-.header-flex1 {
-    font-size: 1.5vw;
-    margin-top: 1.5vw;
-    width: 30vw;
-}
 
 
 /*========Dashqin 2ci hisse=============*/
@@ -205,7 +207,6 @@ h1 {
 .article-card img {
     width: 30vw;
 }
-
 
 .article-card:hover {
     transform: scale(1.05);
@@ -261,8 +262,151 @@ h1 {
     padding-top: 1vw;
 }
 
+/* Senuber desktop */
+
+.footer {
+    width: 100vw;
+}
+
+.footer-leftf {
+    padding: 7vw 0 8vw 9vw;
+    background-color: #EFEFEF;
+}
+
+.footer-text {
+    font-size: 4vw;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 5vw;
+}
+
+.footer-layer {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    padding: 3vw 3vw 2vw;
+    width: 55vw;
+    height: 32vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.footer-layer p {
+    font-size: 1.5vw;
+}
+
+.footer-image p {
+    font-size: 2vw;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    margin:6.5vw 0 1vw 2vw;
+}
+
+.footer-image img {
+    margin:0.5vw 0 0 2vw;
+}
+
+.footer-author {
+    display: flex;
+}
+
+.footer-woman {
+    width: 14vw;
+    margin-top: 3vw;
+}
+
+.footer-layer:hover {
+    transform: scale(1.05);
+    background-color: #9DC9C8;
+}
+
+/* 2. hisse */
+.footer-right {
+    padding: 13vw 0 13vw 9vw;
+    width: 100vw;
+    background-color: #9DC9C8;
+}
+
+.footer-same {
+    font-size: 4vw;
+    font-family: "Roboto Slab", serif;
+}
+
+.footer-top {
+    font-size: 2vw;
+    margin-top: 4vw;
+}
+
+.footer-price {
+    font-size: 6vw;
+    margin-bottom: 6vw;
+}
+
+.footer-second {
+    display: flex;
+}
+
+.footer-zero {
+    font-size: 2vw;
+    margin: 1vw 5vw 0 0;
+}
+
+.footer-end {
+    width: 27vw;
+}
+
+.footer-end p {
+    margin: 1vw 5vw 0 0;
+}
+
+/* 3. hisse */
+.footer {
+    width: 100vw;
+}
+
+.footer-last {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding: 4vw 9vw 2vw;
+}
+
+.footer-mobile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-socials {
+    margin-top: 2vw;
+}
+
+.footer-socials img {
+    margin-right: 1.2vw;
 
 
+.footer-one {
+    display: flex;
+    font-size: 2vw;
+    align-items: baseline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+a:hover {
+    color: red;
+}
+
+  
+ .footer-one img {
+    margin:0 1vw 1.5vw 0;
+}
+
+.footer-date {
+    font-size: 1.5vw;
+    margin:10vw 0 2vw 0;
+}
+
+  
 
 
 
@@ -336,47 +480,6 @@ h1 {
     }
 
 
-    /* Dashqin 2-ci hisse mobil */
-
-    .article-container {
-        margin: 0 auto;
-        padding: 16vw 25vw 12vw;
-    }
-
-    .article-container h2 {
-        font-size: 7vw;
-        margin-bottom: 15vw;
-    }
-
-    .article-card {
-        height: 41vw;
-        width: 52vw;
-        border-radius: 3.5vw;
-    }
-
-    .article-card img {
-        width: 52vw;
-    }
-
-    .article-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 8vw;
-    }
-
-    .article h4 {
-        font-size: 4vw;
-    }
-
-    .article-h4se {
-        margin-bottom: 5vw;
-    }
-
-    .article-card p {
-        font-size: 3vw;
-    }
-  
-  
   
     /* Nilufer  mobil  */
 
@@ -452,6 +555,165 @@ h1 {
         font-size: 3.4vw;
         margin-top: 9.6vw;
     }
+  
+  /* Dashqin 2-ci hisse mobil */
+
+    .article-container {
+        margin: 0 auto;
+        padding: 16vw 25vw 12vw;
+    }
+
+    .article-container h2 {
+        font-size: 7vw;
+        margin-bottom: 15vw;
+    }
+
+    .article-card {
+        height: 41vw;
+        width: 52vw;
+        border-radius: 3.5vw;
+    }
+
+    .article-card img {
+        width: 52vw;
+    }
+
+    .article-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8vw;
+    }
+
+    .article h4 {
+        font-size: 4vw;
+    }
+
+    .article-h4se {
+        margin-bottom: 5vw;
+    }
+
+    .article-card p {
+        font-size: 3vw;
+    }
+  
+  
+  /* Senuber mobil */
+
+    .footer {
+        width: 100vw;
+    }
+
+    .footer-leftf {
+        padding: 11.2vw 0 14.13vw 11.2vw;
+    }
+
+    .footer-text {
+        font-size: 6.93vw;
+        margin-bottom: 8.27vw;
+    }
+
+    .footer-layer {
+        border-radius: 3.47vw;
+        padding: 4.8vw 5.6vw 3.47vw;
+        width: 82.13vw;
+        height: 61.13vw;
+    }
+
+    .footer-layer p {
+        font-size: 2.67vw;
+    }
+
+    .footer-image p {
+        font-size: 3.73vw;
+        margin:8vw 0 3.2vw 3.47vw;
+    }
+
+    .footer-image img {
+        width: 4vw;
+        margin:0.5vw 0 0 3.5vw;
+    }
+
+    .footer-author {
+        display: flex;
+    }
+
+    .footer-woman {
+        width: 23.33vw;
+        margin-top: 4vw;
+    }
+
+    .footer-right {
+        padding: 16.53vw 0 15.2vw 12vw;
+    }
+
+    .footer-same {
+        font-size: 6.93vw;
+    }
+
+    .footer-top {
+        font-size: 3.2vw;
+        margin-top: 6.67vw;
+    }
+
+    .footer-price {
+        font-size: 9.87vw;
+        margin-bottom: 10.67vw;
+    }
+
+    .footer-end {
+        width: 42vw;
+        font-size: 2.67vw;
+    }
+
+    .footer-zero {
+        font-size: 3.2vw;
+        margin: 1.33vw 12vw 0 0;
+    }
+
+    .footer-last {
+        padding: 6.13vw 14.93vw 2.67vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-socials {
+        margin-top: 3.47vw;
+    }
+
+    .footer-logo-mobil {
+        width: 14.13vw;
+        height: 8.27vw;
+    }
+
+    .footer-socials img {
+        width: 4vw;
+        margin:0 2.67vw 5vw 0;
+    }
+
+    .footer-contact {
+        margin-top: 9.07vw;
+    }
+
+    .footer-one {
+        font-size: 3.2vw;
+    }
+
+    .footer-one img {
+        width: 3.7vw;
+        margin:0 2.67vw 3.2vw 0;
+
+    }
+
+    .footer-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-date {
+        margin-top: 12.8vw;
+        font-size: 2.67vw;
+    }
+  
 }
 
 
@@ -625,8 +887,117 @@ h1 {
     .article-card p {
         font-size: 2vw;
     }
+  
+   /* Senuber tablet*/
+    .footer-leftf {
+        padding: 6.2vw 0 7.7vw 8.4vw;
+    }
+
+    .footer-text {
+        font-size: 3.8vw;
+        margin-bottom: 5.4vw;
+    }
+
+    .footer-layer {
+        border-radius: 2.2vw;
+        padding: 2.8vw 3.1vw 1.9vw;
+        width: 54.9vw;
+        height: 31.3vw;
+    }
+
+    .footer-layer p {
+        font-size: 1.4vw;
+    }
+
+    .footer-image p {
+        font-size: 2.0vw;
+        margin:5.5vw 0 1.8vw 1.9vw;
+    }
+
+    .footer-author {
+        display: flex;
+    }
+
+    .footer-woman {
+        width: 14.2vw;
+        margin-top: 1.9vw;
+    }
+
+    .footer-right {
+        padding: 12.4vw 0 13.1vw 8.4vw;
+        width: 100vw;
+    }
+
+    .footer-same {
+        font-size: 3.8vw;
+    }
+
+    .footer-top {
+        font-size: 1.7vw;
+        margin-top: 3.6vw;
+    }
+
+    .footer-price {
+        font-size: 5.5vw;
+        margin-bottom: 6.0vw;
+    }
+
+    .footer-second {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .footer-end {
+        width: 27.6vw;
+        font-size: 1.2vw;
+    }
+
+    .footer-zero {
+        font-size: 1.7vw;
+        margin: 0.6vw 4.8vw 0 0;
+    }
+
+    .footer-last {
+        width: 100vw;
+        padding: 3.4vw 8.4vw 3.0vw;
+    }
+
+    .footer-socials {
+        margin-top: 3.6vw;
+    }
+
+    .footer-logo-mobil {
+        width: 7.9vw;
+        height: 4.7vw;
+    }
+
+    .footer-socials img {
+        margin-right: 1.2vw;
+        width: 2.4vw;
+    }
+
+    .footer-contact {
+        margin-top: 4.1vw;
+    }
+
+    .footer-image img {
+        width: 2.5vw;
+        margin-top: 0.3vw;
+    }
+
+    .footer-one {
+        font-size: 1.7vw;
+    }
+
+    .footer-one img {
+        width: 2vw;
+        margin:0 1.2vw 1.7vw 0;
+    }
+
+    .footer-date {
+        margin-top: 10.1vw;
+        font-size: 1.2vw;
+    }
+  
 }
 
-
-
- 
