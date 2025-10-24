@@ -8,11 +8,174 @@
 }
 
 
+/*==========Dashqin 1ci hisse============*/
+.header {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header-flex {
+    display: flex;
+}
+
+.header-container {
+    padding-left: 9vw;
+    padding-top: 2vw;
+}
+
+.header-logo {
+    width: 8vw;
+    height: 5vw;
+}
+
+.header-nav {
+    display: flex;
+    align-items: baseline;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+    font-size: 1.5vw;
+}
+
+.header-nav p {
+    margin-left: 0.5vw;
+    margin-right: 1.5vw;
+}
+
+.header-nav img {
+    width: 2vw;
+    height: 2vw;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-size: 6vw;
+    width: 47vw;
+}
+
+.header-men {
+    width: 22vw;
+    height: 27vw;
+    height: auto;
+    margin-left: 8vw;
+}
+
+.header-blue {
+    font-family: "Roboto Slab", serif;
+    background-color: #1E4681;
+    box-sizing: border-box;
+    color: white;
+    width: 31vw;
+    height: 14vw;
+    padding: 1.5vw 2vw 0.5vw;
+    margin-left: 17vw;
+    margin-top: 5vw;
+    font-size: 1.9vw;
+    border-radius: 0.5vw;
+}
+
+.header-p2 {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+}
+
+.header-flex1 {
+    font-size: 1.5vw;
+    margin-top: 1.5vw;
+    width: 30vw;
+}
 
 
+/*========Dashqin 2ci hisse=============*/
+.article-container {
+    margin: 0 auto;
+    padding: 18vw 4vw 9vw;
+    box-sizing: border-box;
+}
 
+.article-container h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    margin-left: 5vw;
+    margin-bottom: 10vw;
+    font-family: "Roboto Slab", serif;
+}
 
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+}
 
+.article-card {
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 2.3vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 30vw;
+}
+
+.article-card img {
+    width: 30vw;
+}
+
+.article-card:hover {
+    transform: scale(1.05);
+}
+
+.article-card:nth-child(1):hover {
+    box-shadow: 0.5vw 0.5vw 1vw rgba(206, 162, 17, 0.63);
+}
+
+.article-card:nth-child(2):hover {
+    box-shadow: 0.5vw 0.5vw 1vw rgba(6, 118, 223, 0.534);
+}
+
+.article-card:nth-child(3):hover {
+    box-shadow: 0.5vw 0.5vw 1vw rgba(255, 0, 0, 0.35);
+}
+
+.article-card:nth-child(4):hover {
+    box-shadow: 0.5vw 0.5vw 1vw rgba(7, 165, 170, 0.35);
+}
+
+.article-card:nth-child(5):hover {
+    box-shadow: 0.5vw 0.5vw 1vw rgba(121, 76, 39, 0.479);
+}
+
+.article-card:nth-child(6):hover {
+    box-shadow: 0.5vw 0.5vw 1vw rgba(10, 37, 155, 0.452);
+}
+
+.article-card:nth-child(7):hover {
+    box-shadow: 0.5vw 0.5vw 1vw rgba(76, 101, 146, 0.616);
+}
+
+.article-card:nth-child(8):hover {
+    box-shadow: 0.5vw 0.5vw 1vw rgba(11, 172, 59, 0.664);
+}
+
+.article h4 {
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.article-h4se {
+    margin-bottom: 3vw;
+}
+
+.article-card p {
+    font-size: 2vw;
+}
+
+.article-text {
+    padding: 2vw;
+    padding-top: 1vw;
+}
 
 
 
@@ -27,22 +190,219 @@
 
 
 /* ========== Mobil (300px -600px =========*/
-@media screen and (min-width: 300px) and (max-width: 600px) { 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    /* Dashqin mobil 1-ci hisse */
+
+    .header-container {
+        margin: 0 auto;
+        padding-left: 9.6vw;
+        padding-top: 9.33vw;
+    }
+
+    .header-logo {
+        width: 13.87vw;
+        height: 8vw;
+    }
+
+    .header-nav {
+        margin-top: 12vw;
+        margin-bottom: 3.2vw;
+        font-size: 2.67vw;
+    }
+
+    .header-nav p {
+        margin-left: 1.07vw;
+        margin-right: 4vw;
+    }
+
+    .header-nav img {
+        width: 2.67vw;
+        height: 2.67vw;
+    }
+
+    h1 {
+        font-size: 9.87vw;
+        width: 80vw;
+    }
+
+    .header-flex1 {
+        font-size: 2.67vw;
+        margin-top: 5.33vw;
+        width: 56.53vw;
+    }
+
+    .header-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-men {
+        margin-left: 50vw;
+        width: 37.87vw;
+        height: 46.67vw;
+    }
+
+    .header-blue {
+        width: 60.27vw;
+        height: 22.67vw;
+        padding: 2.4vw 3.47vw 0.53vw;
+        margin-left: 10.13vw;
+        margin-top: 10.4vw;
+        font-size: 2.93vw;
+        border-radius: 0.8vw;
+    }
+
+    .header-p2 {
+        font-size: 2.67vw;
+        margin-top: 1.6vw;
+    }
 
 
+    /* Dashqin 2-ci hisse mobil */
 
+    .article-container {
+        margin: 0 auto;
+        padding: 16vw 25vw 12vw;
+    }
 
+    .article-container h2 {
+        font-size: 7vw;
+        margin-bottom: 15vw;
+    }
 
+    .article-card {
+        height: 41vw;
+        width: 52vw;
+        border-radius: 3.5vw;
+    }
 
+    .article-card img {
+        width: 52vw;
+    }
 
+    .article-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8vw;
+    }
+
+    .article h4 {
+        font-size: 4vw;
+    }
+
+    .article-h4se {
+        margin-bottom: 5vw;
+    }
+
+    .article-card p {
+        font-size: 3vw;
+    }
 }
 
-
 /* ===========Tablet (601px-1024px============ */
-@media screen and (min-width: 601px) and (max-width: 1024px) { 
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    /* Dashqin tablet - 1-ci hisse */
+    .header-container {
+        padding-left: 8.39vw;
+        padding-top: 2.64vw;
+    }
+
+    .header-logo {
+        width: 7.79vw;
+        height: 4.56vw;
+    }
+
+    .header-nav {
+        margin-top: 6.36vw;
+        margin-bottom: 1.2vw;
+        font-size: 1.44vw;
+    }
+
+    .header-nav p {
+        margin-left: 0.6vw;
+        margin-right: 2.4vw;
+    }
+
+    .header-nav img {
+        width: 1.44vw;
+        height: 1.44vw;
+    }
+
+    h1 {
+        font-size: 5.52vw;
+        width: 43.65vw;
+    }
+
+    .header-flex1 {
+        font-size: 1.44vw;
+        margin-top: 1.2vw;
+        width: 31.66vw;
+    }
+
+    .header-men {
+        margin-left: 14.15vw;
+        width: 21.1vw;
+        height: 24.7vw;
+
+    }
+
+    .header-blue {
+        width: 33.57vw;
+        height: 13.91vw;
+        padding: 1.32vw 1.8vw 0.6vw;
+        margin-left: 28.18vw;
+        margin-top: 4.68vw;
+        font-size: 1.68vw;
+        border-radius: 0.36vw;
+    }
+
+    .header-p2 {
+        font-size: 1.44vw;
+        margin-top: 0.96vw;
+
+    }
 
 
 
+    /* Dashqin 2-ci hisse tablet */
 
-    
+    .article-container {
+        padding: 15.2vw 5.8vw 6.2vw;
+    }
+
+    .article-container h2 {
+        font-size: 3.8vw;
+        margin-bottom: 9.5vw;
+        margin-left: 8.4vw;
+    }
+
+    .article-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .article h4 {
+        font-size: 2vw;
+    }
+
+    .article-h4se {
+        margin-bottom: 2vw;
+    }
+
+    .article-card {
+        height: 22.7vw;
+        width: 27.7vw;
+        box-sizing: border-box;
+    }
+
+    .article-card img {
+        width: 27.7vw;
+    }
+
+    .article-card p {
+        font-size: 2vw;
+    }
+
 }
